@@ -1,0 +1,30 @@
+.header {
+  /* border: 1px solid red; */
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 7px 0px 7px 10px; */
+  align-items: center;
+}
+.header .header__column {
+  display: flex;
+  align-items: center;
+}
+.header .header__column .header__author-icon {
+  /* border: 1px solid red; */
+  width: 31px;
+  height: 31px;
+  background-color: gray;
+  margin: 7px 10px 7px 10px;
+  border-radius: 15px;
+}
+.header .header__column .header__author-icon > img {
+  width: 30px;
+  height: 30px;
+}
+.header .header__column .header__author-name {
+  font-size: 13px;
+}
+.header .header__column .header__more-icon {
+  margin-right: 15px;
+}

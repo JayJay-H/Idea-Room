@@ -1,0 +1,34 @@
+input {
+  border: 0px;
+  font-size: 12px;
+}
+.comment {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment .comment__column {
+  display: flex;
+}
+.comment .comment__author-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px;
+}
+.comment .comment__author-icon > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.comment .comment__column .comment-icons {
+  display: flex;
+  padding-right: 5px;
+}
+.comment .comment__column .comment-icons > i {
+  margin-left: 8px;
+}
+.time-stamp {
+  margin: 2px 7px;
+  font-size: 8px;
+}

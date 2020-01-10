@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="css/posting_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+      integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__column">
+        <div class="header__author-icon">
+          <img src="images/header-author.png" alt="." />
+        </div>
+        <span class="header__author-name">Snoopy</span>
+      </div>
+      <div class="header__column">
+        <span class="header__more-icon">
+          <i class="fas fa-ellipsis-v"></i>
+        </span>
+      </div>
+    </header>
+    <main class="posting">
+      <div class="posting__post-pic">
+        <img src="images/post-image.jpg" alt="." />
+      </div>
+      <div class="posting__icons">
+        <div class="posting__icons-column">
+          <i class="far fa-heart"></i>
+          <i class="far fa-comment"></i>
+          <i class="far fa-paper-plane"></i>
+        </div>
+        <div class="posting__icons-column">
+          <i class="far fa-bookmark"></i>
+        </div>
+      </div>
+      <div class="posting__contents contents">
+        <div class="contents__like">좋아요 23개</div>
+        <span class="contents__author-name">nomad_coders</span>
+        <span class="contents__content">
+          뉴욕갬성의 이것은?! 개발자 연용 컵이라고한다고~?!...더보기
+        </span>
+      </div>
+    </main>
+    <div class="comment">
+      <div class="comment__column">
+        <div class="comment__author-icon">
+          <img src="images/comment-image.jpg" alt="." />
+        </div>
+        <input type="text" id="comment__text" placeholder="댓글 달기..." />
+      </div>
+      <div class="comment__column">
+        <div class="comment-icons">
+          <i class="fas fa-fire"></i>
+          <i class="far fa-sad-tear"></i>
+          <i class="fas fa-plus-circle"></i>
+        </div>
+      </div>
+    </div>
+    <div class="time-stamp">30분 전</div>
+  </body>
+</html>
