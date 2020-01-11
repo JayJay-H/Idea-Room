@@ -2,4 +2,4 @@
 
 - posting part
 
-<img src="images/posting-preview.PNG" width="50%" height="50%">
+<img src="images/posting-preview.PNG" width="30%" height="30%">
