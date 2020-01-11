@@ -5,7 +5,7 @@
 .posting .posting__post-pic {
   width: 300px;
   height: 300px;
-  margin-left: 1px;
+  margin-left: 0.5px;
 }
 .posting .posting__post-pic img {
   width: 100%;
@@ -18,13 +18,16 @@
 }
 .posting .posting__icons .posting__icons-column {
   display: flex;
-  margin: 5px 0px 5px 5px;
+  margin: 5px 0px 5px 7px;
 }
 .posting .posting__icons .posting__icons-column > i {
   margin-right: 6px;
 }
-.contents {
-  margin: 5px 5px;
+.posting .contents {
+  margin: 5px 7px;
+}
+.posting .posting__contents {
+  align-items: center;
 }
 .contents .contents__like {
   font-size: 12px;
@@ -37,4 +40,10 @@
 }
 .contents .contents__content {
   font-size: 13px;
+}
+.contents .more-content {
+  margin-left: -4px;
+  font-size: 9px;
+  vertical-align: middle;
+  opacity: 0.5;
 }
