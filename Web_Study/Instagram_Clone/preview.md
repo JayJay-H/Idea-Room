@@ -2,4 +2,4 @@
 
 - posting part
 
-  ![Preview](images/posting-preview.PNG)
+<img src="images/posting-preview.PNG" width="50%" height="50%">
